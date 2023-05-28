@@ -1,0 +1,35 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "process",
+			"label": "Run",
+			"command": "${fileDirname}\\${fileBasenameNoExtension}.exe",
+			"group": {
+				"kind": "test",
+				"isDefault": true
+			},
+			"detail": "Run ${fileDirname}\\${fileBasenameNoExtension}.exe"
+		},
+		{
+			"type": "cppbuild",
+			"label": "C/C++: g++.exe сборка активного файла",
+			"command": "E:\\Compil\\llvm-mingw-20210816-msvcrt-i686\\bin\\g++.exe",
+			"args": [
+				"-fdiagnostics-color=always",
+				"-g",
+				"${file}",
+				"-o",
+				"${fileDirname}\\${fileBasenameNoExtension}.exe"
+			],
+			"options": {
+				"cwd": "${fileDirname}"
+			},
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": "build",
+			"detail": "компилятор: E:\\Compil\\llvm-mingw-20210816-msvcrt-i686\\bin\\g++.exe"
+		}
+	]
+}
