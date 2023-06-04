@@ -14,7 +14,7 @@
 		{
 			"type": "cppbuild",
 			"label": "C/C++: g++.exe сборка активного файла",
-			"command": "E:\\Compil\\llvm-mingw-20210816-msvcrt-i686\\bin\\g++.exe",
+			"command": "C:\\compilers\\ucrt64\\bin\\g++.exe",
 			"args": [
 				"-fdiagnostics-color=always",
 				"-g",
@@ -29,7 +29,7 @@
 				"$gcc"
 			],
 			"group": "build",
-			"detail": "компилятор: E:\\Compil\\llvm-mingw-20210816-msvcrt-i686\\bin\\g++.exe"
+			"detail": "компилятор: C:\\compilers\\ucrt64\bin\\g++.exe"
 		}
 	]
 }
