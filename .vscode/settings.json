@@ -48,6 +48,9 @@
         "clocale": "cpp",
         "ctime": "cpp",
         "sstream": "cpp",
-        "iomanip": "cpp"
+        "iomanip": "cpp",
+        "map": "cpp",
+        "optional": "cpp",
+        "xtree": "cpp"
     }
 }

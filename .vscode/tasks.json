@@ -14,7 +14,7 @@
 		{
 			"type": "cppbuild",
 			"label": "C/C++: g++.exe сборка активного файла",
-			"command": "C:\\compilers\\ucrt64\\bin\\g++.exe",
+			"command": "E:\\Compil\\llvm-mingw-20210816-msvcrt-i686\\bin\\g++.exe",
 			"args": [
 				"-fdiagnostics-color=always",
 				"-g",

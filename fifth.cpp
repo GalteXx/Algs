@@ -149,6 +149,8 @@ int main(){
     c3.power = 3;
     pw_cf a[3] = {c1, c2, c3};
     list* l = initialise_from_array(a, sizeof(a)/sizeof(a[0]));
-    cout << l->calculate(1);
+    std::cout << "Statement: ";
+    l->print_as_expression();
+    std::cout << "\nWhen x=1 sum is equal to: " << l->calculate(1) << "\n";
     return 0;
 }
